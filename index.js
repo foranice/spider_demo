@@ -89,7 +89,7 @@ async function excute() {
 
 
    }))
-    .writeFileSync('result.txt',JSON.stringify(questionsList,null,2))
+    fs.writeFileSync('result.txt',JSON.stringify(questionsList,null,2))
 
 
 
